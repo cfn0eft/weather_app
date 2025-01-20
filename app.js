@@ -1,7 +1,7 @@
 const apiKey = '2213c635ce77843c434fe814a354533e';  // ここに正しいAPIキーを入力してください
 
 async function getWeather(cityName) {
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
     try {
         const response = await fetch(url);
