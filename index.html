@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天気予報アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>天気予報アプリ</h1>
+    <input type="text" id="cityName" placeholder="都市名を入力">
+    <button>天気を取得</button>
+    <p id="weatherInfo"></p>
+    
+    <h2>検索可能な都市一覧</h2>
+    <ul id="cityList"></ul>
+    
+    <h3>検索方法</h3>
+    <p>上記の一覧から都市名をクリックするか、入力して天気を取得してください。例: "Tokyo", "Osaka"</p>
+
+    <script src="app.js"></script>
+    <script src="cities.js"></script>
+</body>
+</html>
